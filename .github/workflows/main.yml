@@ -1,6 +1,9 @@
 name: Github to Jira integration
 
-on: push
+on:
+  push:
+    branches:    
+      - 'TI/**'
 
 jobs:
   test-transition-issue:
